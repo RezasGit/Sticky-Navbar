@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.4s;
+}
+.navbar img{
+    height: 60px;
+    width: 150px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar.active{
+    background-color: black;
+}
+.navbar.active ul li a{
+    color: white;
+}
+.top-container{
+    display: flex;
+    justify-content: center;
+    background-image: url("img/bgWebDev.jpg");
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+.top-container h1{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.text{
+    margin: 50px 5%;
+    font-family: sans-serif;
+}
